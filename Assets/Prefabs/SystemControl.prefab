@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7210567883546937575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7210567883546937577}
+  - component: {fileID: 7210567883546937574}
+  - component: {fileID: 5857194365388455105}
+  - component: {fileID: 879023699}
+  - component: {fileID: 879023700}
+  - component: {fileID: 879023701}
+  m_Layer: 0
+  m_Name: LevelControl
+  m_TagString: LevelController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7210567883546937577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210567883546937575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7210567883546937574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210567883546937575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64997e7df5db7d141a7736de0d2cba72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelControlScriptable: {fileID: 11400000, guid: 932f757a976bea743959f6d8e21d5643,
+    type: 2}
+  configHolder: {fileID: 5857194365388455105}
+  level: {fileID: 0}
+--- !u!114 &5857194365388455105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210567883546937575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437368e57d969f046a92e35fbe6502bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Quantity: {fileID: 0}
+  Flutter: {fileID: 0}
+  Speed: {fileID: 0}
+  Glass: {fileID: 0}
+--- !u!114 &879023699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210567883546937575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb69ab1be7673b498780ee2346cc3fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeText: {fileID: 0}
+  timeFloat: 0
+--- !u!114 &879023700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210567883546937575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbcd78202498b19448aa156557502626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeTextMission: {fileID: 0}
+  grabTextMission: {fileID: 0}
+  showTimeOnScene: {fileID: 879023699}
+--- !u!114 &879023701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210567883546937575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f8f0701090e014a9ea3741b273cc6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  butterFlyGlassPrefab: {fileID: 7742269404138230136, guid: 3b23a00cb42012b428e7c1e1e096f531,
+    type: 3}
+  butterFlyPrefab: {fileID: 7742269404138230136, guid: 68c1f142669f1c74282f7cf93fe9f96a,
+    type: 3}
+  spanws:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
