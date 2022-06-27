@@ -12,3 +12,6 @@ We are able to configure some settings in order to prepare enviroment.
 In game we can move in vr world, grab butterflies and complete missions.
 
 ![missions](https://user-images.githubusercontent.com/487231/151353860-f8734f51-2ad4-4f11-9c9c-abc680d6ca88.png)
+
+
+You can read my thesis here: https://www.researchgate.net/publication/353235930_Virtual_reality_applications_for_psychotherapy_in_the_treatment_of_lepidopterophobia
